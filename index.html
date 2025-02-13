@@ -97,5 +97,27 @@
             </ul>
         </div>
     </footer>
+
+    <!-- Firebase Script - Added at the bottom of body -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-analytics.js";
+        
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyCRpjinpNm-GzN34BHXUt2aiaetKDDi10U",
+            authDomain: "askcoco-4363f.firebaseapp.com",
+            projectId: "askcoco-4363f",
+            storageBucket: "askcoco-4363f.firebasestorage.app",
+            messagingSenderId: "96614631697",
+            appId: "1:96614631697:web:2ae6561c05c382a14b24b0",
+            measurementId: "G-7LW0LMBY49"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 </body>
 </html> 
