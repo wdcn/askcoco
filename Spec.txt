@@ -1,0 +1,97 @@
+PRODUCT WEBSITE SPECIFICATION
+
+1. PAGE STRUCTURE
+- Homepage (index.html)
+- About Us (about.html)
+- Terms of Use (terms.html)
+
+2. HOMEPAGE ELEMENTS
+2.1 Header
+  - Website logo (left-aligned)
+  - Navigation menu (Home, About, Terms)
+
+2.2 Hero Section
+  - Layout: 2-column grid (text | image)
+  - Left Column:
+    * Branding headline (H1)
+    * Tag line (H2)
+    * Short description (paragraph)
+    * QR code (200x200px) with app download caption
+  - Right Column:
+    * Hero image (600x400px)
+
+2.3 Footer
+  - Copyright notice
+  - Secondary navigation links
+  - Social media icons
+  - Contact email
+
+3. TECHNICAL REQUIREMENTS
+- Responsive design
+- Mobile-friendly layout
+- Fast loading times
+- Cross-browser compatibility
+- SEO-friendly markup
+- Separate CSS stylesheet
+
+4. CONTENT REQUIREMENTS
+- Logo: PNG/SVG format
+- Hero image: Web-optimized (WebP/JPEG)
+- QR code: Generated for app store URL
+- Compelling marketing copy
+- Clear call-to-actions
+
+## Component Details
+
+### 1. Header
+**Logo:**
+- Position: Top-left corner
+- File: `ask-coco-logo.svg` (vector preferred)
+- Alt Text: "Ask Coco - AI College Counselor"
+
+**Navigation:**
+- Alignment: Center
+- Items:
+  - Home (active state)
+  - FAQ
+  - About Us
+  - CTA Button: "Get Started" (floating right)
+
+**Styles:**
+- Header background: #ffffff
+- Navigation links: #2d3436 (hover: #0984e3)
+- CTA Button: 
+  - Background: #00b894
+  - Text: #ffffff
+  - Padding: 12px 24px
+  - Border-radius: 8px
+
+### 2. Hero Section
+**Content Stack:**
+1. Headline: "Smart College Planning Starts Here"
+2. Description: "Chat with Coco, your AI college counselor, to discover perfect-fit schools and optimize your application strategy"
+3. CTA Button: "Get Started Free" (same style as header)
+4. Illustration Placeholder: `hero-illustration.png`
+
+**Layout:**
+- Vertical stack (mobile) / 2-column grid (desktop)
+- Text alignment: Center (mobile) / Left-align (desktop)
+- Padding: 64px top/bottom
+
+### 3. Footer
+- Single line: "© 2025 Ask Coco. All rights reserved."
+- Background: #f8f9fa
+- Text color: #636e72
+- Padding: 24px 0
+
+## Responsive Requirements
+- Mobile (<768px):
+  - Hamburger menu for navigation
+  - Stacked header elements
+  - Full-width CTA buttons
+- Desktop (>768px):
+  - Horizontal navigation
+  - Grid-based hero layout
+  - Persistent header
+
+## Implementation Notes
