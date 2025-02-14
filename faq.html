@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Ask Coco</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T4BX270WN8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-T4BX270WN8');
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Ask Coco" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                </ul>
+            </nav>
+            <button class="cta-button">GET STARTED</button>
+        </div>
+    </header>
+
+    <main class="faq-page">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+            
+            <section class="faq-section">
+                <div class="faq-item">
+                    <h2>What is Ask Coco?</h2>
+                    <p>Ask Coco is an AI-powered college counseling platform that provides personalized guidance to high school students throughout their college preparation and selection journey.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h2>How does the AI counseling work?</h2>
+                    <p>Our AI analyzes your academic profile, interests, and preferences to provide personalized college recommendations, academic planning, and application strategies. It learns from your interactions to offer increasingly tailored advice.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h2>Is Ask Coco free to use?</h2>
+                    <p>Ask Coco offers both free and premium features. Basic college search and general guidance are free, while personalized counseling and advanced features are available through our premium plans.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h2>How accurate are the college matches?</h2>
+                    <p>Our college matching algorithm considers multiple factors including academic performance, location preferences, financial considerations, and career goals to provide highly accurate recommendations.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h2>Can parents access their student's account?</h2>
+                    <p>Yes, we offer parent access features that allow parents to view their student's progress while maintaining student privacy for personal communications.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h2>How do you protect student data?</h2>
+                    <p>We take data privacy seriously and comply with all relevant education privacy laws. All personal information is encrypted and securely stored. See our Privacy Policy for details.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h2>What grade should I start using Ask Coco?</h2>
+                    <p>While you can start at any time, we recommend beginning in 9th or 10th grade to maximize the benefits of our academic planning and college preparation guidance.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h2>Do you offer human counselor support?</h2>
+                    <p>Yes, our premium plans include access to human college counselors who can provide additional guidance and review AI recommendations.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p class="copyright">© 2025 Ask Coco. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="terms.html">Terms of Use</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Firebase -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-analytics.js";
+        
+        const firebaseConfig = {
+            apiKey: "AIzaSyCRpjinpNm-GzN34BHXUt2aiaetKDDi10U",
+            authDomain: "askcoco-4363f.firebaseapp.com",
+            projectId: "askcoco-4363f",
+            storageBucket: "askcoco-4363f.firebasestorage.app",
+            messagingSenderId: "96614631697",
+            appId: "1:96614631697:web:2ae6561c05c382a14b24b0",
+            measurementId: "G-7LW0LMBY49"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+</html> 

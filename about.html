@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Ask Coco</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T4BX270WN8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-T4BX270WN8');
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Ask Coco" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                </ul>
+            </nav>
+            <button class="cta-button">GET STARTED</button>
+        </div>
+    </header>
+
+    <main class="about-page">
+        <div class="container">
+            <h1>About Ask Coco</h1>
+            <section class="mission">
+                <h2>Our Mission</h2>
+                <p>At Ask Coco, we're revolutionizing college counseling through AI-powered personalization. Our mission is to make expert college guidance accessible to every high school student, ensuring they make informed decisions about their academic future.</p>
+            </section>
+
+            <section class="story">
+                <h2>Our Story</h2>
+                <p>Founded by education and technology experts, Ask Coco emerged from a simple observation: quality college counseling shouldn't be a privilege, but a right. We've combined artificial intelligence with expert knowledge to create a platform that provides personalized guidance at scale.</p>
+            </section>
+
+            <section class="values">
+                <h2>Our Values</h2>
+                <ul>
+                    <li><strong>Accessibility:</strong> Making expert college guidance available to all students</li>
+                    <li><strong>Innovation:</strong> Leveraging AI technology to provide personalized support</li>
+                    <li><strong>Excellence:</strong> Maintaining high standards in education guidance</li>
+                    <li><strong>Empowerment:</strong> Helping students make informed decisions about their future</li>
+                </ul>
+            </section>
+
+            <section class="team">
+                <h2>Our Approach</h2>
+                <p>We combine artificial intelligence with expert knowledge to provide:</p>
+                <ul>
+                    <li>Personalized college recommendations</li>
+                    <li>Custom academic planning</li>
+                    <li>Financial aid guidance</li>
+                    <li>Application strategy support</li>
+                    <li>Real-time progress tracking</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p class="copyright">© 2025 Ask Coco. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="terms.html">Terms of Use</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Firebase -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-analytics.js";
+        
+        const firebaseConfig = {
+            apiKey: "AIzaSyCRpjinpNm-GzN34BHXUt2aiaetKDDi10U",
+            authDomain: "askcoco-4363f.firebaseapp.com",
+            projectId: "askcoco-4363f",
+            storageBucket: "askcoco-4363f.firebasestorage.app",
+            messagingSenderId: "96614631697",
+            appId: "1:96614631697:web:2ae6561c05c382a14b24b0",
+            measurementId: "G-7LW0LMBY49"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+</html> 

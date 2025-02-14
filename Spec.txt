@@ -1,4 +1,12 @@
-PRODUCT WEBSITE SPECIFICATION
+PRODUCT WEBSITE SPECIFICATION - ASK COCO
+
+PRODUCT OVERVIEW
+Ask Coco is an AI-powered college counseling platform designed to help high school students navigate their college preparation and selection journey. The platform provides personalized guidance through:
+- College matching based on student preferences and profiles
+- Academic planning and requirement tracking
+- Financial aid and scholarship guidance
+- Application timeline management
+- Expert college counseling support
 
 1. PAGE STRUCTURE
 - Homepage (index.html)
@@ -8,23 +16,31 @@ PRODUCT WEBSITE SPECIFICATION
 2. HOMEPAGE ELEMENTS
 2.1 Header
   - Website logo (left-aligned)
-  - Navigation menu (Home, About, Terms)
+  - Navigation menu (Home, FAQ, About Us)
+  - CTA Button: "Get Started" (floating right)
 
 2.2 Hero Section
   - Layout: 2-column grid (text | image)
   - Left Column:
-    * Branding headline (H1)
-    * Tag line (H2)
-    * Short description (paragraph)
-    * QR code (200x200px) with app download caption
+    * Main Headline: "EMPOWER YOUR FUTURE WITH AN AI-POWERED COLLEGE COUNSELOR"
+    * Value Proposition Description
+    * Key Statistics:
+      - 2800+ Target Colleges
+      - 500+ Service Providers
+      - 10K Ongoing Counseling
+    * Factor Categories:
+      - Academic
+      - Location
+      - Finance
+      - Community
+      - Career
   - Right Column:
-    * Hero image (600x400px)
+    * Hero image with floating UI elements showing platform features
 
 2.3 Footer
-  - Copyright notice
-  - Secondary navigation links
-  - Social media icons
-  - Contact email
+  - Copyright notice (2025)
+  - Terms of Use
+  - Privacy Policy
 
 3. TECHNICAL REQUIREMENTS
 - Responsive design
@@ -33,65 +49,27 @@ PRODUCT WEBSITE SPECIFICATION
 - Cross-browser compatibility
 - SEO-friendly markup
 - Separate CSS stylesheet
+- Google Analytics integration
+- Firebase hosting and analytics
 
 4. CONTENT REQUIREMENTS
-- Logo: PNG/SVG format
-- Hero image: Web-optimized (WebP/JPEG)
-- QR code: Generated for app store URL
-- Compelling marketing copy
-- Clear call-to-actions
+- Logo: SVG format for crisp display
+- Hero image: Web-optimized PNG with overlay elements
+- Factor icons: Consistent style and color scheme
+- Clear value proposition copy
+- Compelling statistics display
+- Professional UI/UX design
 
-## Component Details
+5. TARGET AUDIENCE
+- Primary: High school students (Grades 9-12)
+- Secondary: Parents and guardians
+- Tertiary: School counselors and educators
 
-### 1. Header
-**Logo:**
-- Position: Top-left corner
-- File: `ask-coco-logo.svg` (vector preferred)
-- Alt Text: "Ask Coco - AI College Counselor"
+6. KEY FEATURES HIGHLIGHT
+- AI-Driven personalized counseling
+- Real-time chat support
+- College matching algorithm
+- Comprehensive factor analysis
+- Success rate tracking
+- Expert guidance integration
 
-**Navigation:**
-- Alignment: Center
-- Items:
-  - Home (active state)
-  - FAQ
-  - About Us
-  - CTA Button: "Get Started" (floating right)
-
-**Styles:**
-- Header background: #ffffff
-- Navigation links: #2d3436 (hover: #0984e3)
-- CTA Button: 
-  - Background: #00b894
-  - Text: #ffffff
-  - Padding: 12px 24px
-  - Border-radius: 8px
-
-### 2. Hero Section
-**Content Stack:**
-1. Headline: "Smart College Planning Starts Here"
-2. Description: "Chat with Coco, your AI college counselor, to discover perfect-fit schools and optimize your application strategy"
-3. CTA Button: "Get Started Free" (same style as header)
-4. Illustration Placeholder: `hero-illustration.png`
-
-**Layout:**
-- Vertical stack (mobile) / 2-column grid (desktop)
-- Text alignment: Center (mobile) / Left-align (desktop)
-- Padding: 64px top/bottom
-
-### 3. Footer
-- Single line: "© 2025 Ask Coco. All rights reserved."
-- Background: #f8f9fa
-- Text color: #636e72
-- Padding: 24px 0
-
-## Responsive Requirements
-- Mobile (<768px):
-  - Hamburger menu for navigation
-  - Stacked header elements
-  - Full-width CTA buttons
-- Desktop (>768px):
-  - Horizontal navigation
-  - Grid-based hero layout
-  - Persistent header
-
-## Implementation Notes
